@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Sizzling tapsilog plate">
+  <defs>
+    <radialGradient id="hbg" cx="0.5" cy="0.42" r="0.9">
+      <stop offset="0" stop-color="#4a301c"/>
+      <stop offset="0.55" stop-color="#2f2317"/>
+      <stop offset="1" stop-color="#181310"/>
+    </radialGradient>
+    <radialGradient id="hplate" cx="0.42" cy="0.34" r="0.9">
+      <stop offset="0" stop-color="#fffdf8"/>
+      <stop offset="0.75" stop-color="#f3e7d0"/>
+      <stop offset="1" stop-color="#d9c3a0"/>
+    </radialGradient>
+    <linearGradient id="hgloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#hbg)"/>
+
+  <!-- steam -->
+  <g stroke="#e8c07a" stroke-width="7" stroke-linecap="round" fill="none" opacity=".2">
+    <path d="M430 190c-26-36 26-56 0-92"/>
+    <path d="M560 150c-26-36 26-56 0-92"/>
+    <path d="M700 200c-26-36 26-56 0-92"/>
+    <path d="M860 180c-22-30 22-48 0-80"/>
+  </g>
+
+  <!-- banana leaf -->
+  <ellipse cx="600" cy="470" rx="330" ry="150" fill="#2e5622" opacity=".9"/>
+  <g stroke="#1d3d15" stroke-width="5" fill="none" opacity=".55">
+    <path d="M300 455c190-46 410-46 600 0"/>
+    <path d="M310 495c185-40 395-40 580 0"/>
+  </g>
+
+  <!-- plate -->
+  <ellipse cx="600" cy="455" rx="300" ry="132" fill="url(#hplate)"/>
+  <ellipse cx="600" cy="445" rx="252" ry="104" fill="#fbf2e0"/>
+
+  <!-- garlic rice -->
+  <ellipse cx="452" cy="438" rx="102" ry="62" fill="#f5e9cf"/>
+  <g fill="#e6d3ab">
+    <ellipse cx="404" cy="424" rx="9" ry="5"/><ellipse cx="438" cy="410" rx="9" ry="5"/>
+    <ellipse cx="470" cy="428" rx="9" ry="5"/><ellipse cx="422" cy="452" rx="9" ry="5"/>
+    <ellipse cx="458" cy="462" rx="9" ry="5"/><ellipse cx="486" cy="446" rx="9" ry="5"/>
+  </g>
+  <ellipse cx="452" cy="452" rx="86" ry="44" fill="#fff8ea" opacity=".55"/>
+
+  <!-- tapa strips -->
+  <g stroke="#5f2409" stroke-width="3" stroke-linejoin="round">
+    <rect x="560" y="360" width="168" height="42" rx="21" fill="#8a3d15" transform="rotate(-8 644 381)"/>
+    <rect x="576" y="408" width="186" height="44" rx="22" fill="#9c4a1c" transform="rotate(-3 669 430)"/>
+    <rect x="562" y="456" width="170" height="40" rx="20" fill="#7c3512" transform="rotate(4 647 476)"/>
+  </g>
+  <g fill="#c97b3f" opacity=".85">
+    <ellipse cx="608" cy="376" rx="13" ry="6"/><ellipse cx="668" cy="366" rx="11" ry="5"/>
+    <ellipse cx="632" cy="432" rx="13" ry="6"/><ellipse cx="700" cy="428" rx="11" ry="5"/>
+    <ellipse cx="616" cy="474" rx="12" ry="5"/><ellipse cx="676" cy="482" rx="11" ry="5"/>
+  </g>
+
+  <!-- eggs -->
+  <g>
+    <ellipse cx="790" cy="412" rx="64" ry="46" fill="#ffffff"/>
+    <path d="M752 396c10-16 34-24 52-18 20 6 26 26 18 42-8 18-34 26-56 20-20-6-26-28-14-44z" fill="#fdf9f1"/>
+    <circle cx="792" cy="414" r="21" fill="#f2b01e"/>
+    <circle cx="786" cy="408" r="9" fill="#f9d368"/>
+  </g>
+  <g>
+    <ellipse cx="806" cy="502" rx="52" ry="38" fill="#ffffff"/>
+    <circle cx="808" cy="502" r="17" fill="#eeA82a"/>
+    <circle cx="803" cy="497" r="7" fill="#f8ce62"/>
+  </g>
+
+  <!-- atchara -->
+  <ellipse cx="380" cy="512" rx="58" ry="26" fill="#e3b83c"/>
+  <g fill="#f3d877">
+    <ellipse cx="362" cy="508" rx="12" ry="5"/><ellipse cx="388" cy="516" rx="12" ry="5"/><ellipse cx="404" cy="504" rx="11" ry="5"/>
+  </g>
+
+  <!-- cucumber garnish -->
+  <g>
+    <circle cx="712" cy="528" r="17" fill="#cfe3ae" stroke="#7fa14f" stroke-width="3"/>
+    <circle cx="744" cy="538" r="14" fill="#dcebc0" stroke="#7fa14f" stroke-width="3"/>
+  </g>
+
+  <!-- plate gloss -->
+  <ellipse cx="520" cy="380" rx="180" ry="60" fill="url(#hgloss)" opacity=".5"/>
+
+  <!-- warm rim light -->
+  <rect width="1200" height="800" fill="url(#hbg)" opacity="0"/>
+  <path d="M0 800L0 620c220-40 420-90 620-80 250 12 420 110 580 160v100z" fill="#d97b29" opacity=".08"/>
+</svg>
